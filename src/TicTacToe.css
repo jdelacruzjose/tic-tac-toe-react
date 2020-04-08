@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.square{
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 150px;
+    margin-right: -1px;
+    margin-top: -1px;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    border-color: black;
+    outline: none;
+}
+
+.eachSquare{
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.status{
+    padding: 20px;
+    font-size: 28px;
+}
